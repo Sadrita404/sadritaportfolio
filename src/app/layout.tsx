@@ -7,7 +7,7 @@ import MusicPlayer from "@/components/Common/MusicPlayer";
 import { ClickSoundManager } from "@/components/Common/ClickSoundManager";
 import SmoothScroll from "./SmoothScroll";
 import MobileTest from "./MobileTest";
-import ContactWrapper from "@/components/ContactCTA/ContactWrapper";
+
 import Loader from "./Loader";
 
 import { Analytics } from "@vercel/analytics/next"
@@ -90,7 +90,6 @@ export default function RootLayout({
           <SmoothScroll>
             <MobileTest />
             <TabTitleLooper />
-            <ContactWrapper />
             {children}
             <Analytics />
           </SmoothScroll>

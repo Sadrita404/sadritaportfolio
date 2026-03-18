@@ -2,10 +2,8 @@
 import { Link } from "next-view-transitions";
 import FolderButton from "../FolderButton/FolderButton";
 import { useEffect, useState } from "react";
-import { useStore } from "@/app/useStore";
 
 export default function Footer() {
-    const setOpenContact = useStore((state) => state.setOpenContact);
     const [time, setTime] = useState("");
 
     useEffect(() => {
@@ -67,7 +65,7 @@ export default function Footer() {
                         </a>
 
                         <button
-                            onClick={() => setOpenContact(true)}
+                            onClick={() => (window.location.href = "/contact")}
                             className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center"
                             aria-label="Message"
                         >

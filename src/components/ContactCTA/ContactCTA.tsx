@@ -4,14 +4,12 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useRef, useState, useEffect } from "react";
-import { useStore } from "../../app/useStore";
+import Link from "next/link";
 
 gsap.registerPlugin(ScrollTrigger);
 
 export default function ContactCTA() {
     const containerRef = useRef<HTMLDivElement>(null);
-    const setOpenContact = useStore((state) => state.setOpenContact);
-
     const [windowWidth, setWindowWidth] = useState(0);
 
     useEffect(() => {
@@ -109,7 +107,9 @@ export default function ContactCTA() {
                         LET'S WORK TOGETHER
                     </p>
 
-                    <GrayButton onClick={() => setOpenContact(true)} text="Contact" />
+                    <Link href="/contact">
+                        <GrayButton text="Contact" />
+                    </Link>
                 </div>
             </div>
         </section>

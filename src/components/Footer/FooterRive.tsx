@@ -46,7 +46,7 @@ export function FooterRive({ className }: { className?: string }) {
           safeOpen("https://www.linkedin.com/in/sadrita-neogi-2a7540376/");
         }
         if (event.data.name === "messageClicked") {
-          setOpenContact(true);
+          window.location.href = "/contact";
         }
       };
 

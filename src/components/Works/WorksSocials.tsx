@@ -53,7 +53,7 @@ export function WorksSocials({ progressValue, behance, className, onBack }: { pr
         }
 
         if (event.data.name === "messageClicked") {
-          window.location.href = "/contact";
+          window.location.href = '/contact';
         }
       };
 

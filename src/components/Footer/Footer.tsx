@@ -65,7 +65,7 @@ export default function Footer() {
                         </a>
 
                         <button
-                            onClick={() => (window.location.href = "/contact")}
+                            onClick={() => window.location.href = '/contact'}
                             className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center"
                             aria-label="Message"
                         >

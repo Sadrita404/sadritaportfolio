@@ -279,7 +279,7 @@ export default function Hero() {
 
             {/* text */}
             <div className="!z-[5] absolute bottom-3 md:bottom-10 lg:bottom-20 left-[10px] md:left-[20px] lg:left-[50px] flex flex-col gap-[20px] w-[calc(100%-20px)] lg:w-[500px] 2xl:w-[633px] ">
-                <p ref={subtitleRef} className="opacity-0 text-sm sm:text-lg text-midgray font-ppsemibold">Sadrita</p>
+                <p ref={subtitleRef} className="opacity-0 text-sm sm:text-lg text-midgray font-ppsemibold">Sadrita--</p>
                 <p ref={titleRef} className="opacity-0 [@media(max-width:380px)]:text-[20px] text-h3 md:text-h2 2xl:text-h1 font-intranet text-brightgray leading-[1.3]">Curious developer building innovative web, blockchain, and hardware projects
 </p>
             </div>

@@ -51,7 +51,7 @@ export default function MusicPlayer() {
       <audio ref={audioRef} src="/websitemusic.mp3" preload="auto" />
       <button
         onClick={toggleMusic}
-        className="fixed bottom-4 right-4 z-50 flex items-center gap-2 rounded-full bg-black/50 px-4 py-2 text-xs font-semibold uppercase tracking-wide text-white shadow-lg backdrop-blur-sm transition-all duration-200 hover:bg-black/70"
+        className="fixed bottom-4 right-4 z-50 flex items-center gap-2 rounded-lg border-2 border-white/80 bg-black/80 px-5 py-2.5 text-sm font-bold uppercase tracking-wider text-white shadow-[0_0_0_3px_rgba(255,255,255,0.35)] backdrop-blur-sm transition-all duration-200 hover:bg-white/10 hover:border-white"
         aria-label={isPlaying && !isMuted ? "Mute music" : "Play music"}
         title={isPlaying && !isMuted ? "Mute music" : "Play music"}
       >

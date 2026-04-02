@@ -15,7 +15,7 @@ import { Analytics } from "@vercel/analytics/next"
 import TabTitleLooper from "./TabTitleLooper";
 
 export const metadata: Metadata = {
-  title: "Loris Bukvic Portfolio",
+  title: "Sadrita Neogi Portfolio",
   description: "Loris Bukvic is an award winning website and multimedia designer. Specializing in premium website design, user experience, and interactive storytelling. ",
   keywords: [
     "Loris Bukvic",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     "Frontend Developer",
   ],
   openGraph: {
-    title: "Loris Bukvic Portfolio",
+    title: "Sadrita Neogi Portfolio",
     description: "Loris Bukvic is an award winning website and multimedia designer. Specializing in premium website design, user experience, and interactive storytelling.",
     url: "https://www.Sadrita",
     siteName: "Loris Bukvic Webdesign Portfolio",

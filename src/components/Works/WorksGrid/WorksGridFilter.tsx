@@ -6,12 +6,7 @@ interface Props {
 }
 
 const categories = [
-    "All",
-    "Web",
-    "3D",
-    "Graphics",
-    "UI/UX",
-    "Product"
+    "All"
 ]
 
 export default function WorksGridFilter({
@@ -20,32 +15,7 @@ export default function WorksGridFilter({
 }: Props) {
 
     const handleSelect = (category: string) => {
-        
-        if (category === "All") {
-            setActiveCategory(["All"]);
-            return;
-        }
-
-        let newCategories = [...activeCategory];
-
-        // If "All" was active, clear it first
-        if (newCategories.includes("All")) {
-            newCategories = [];
-        }
-
-        // Toggle selection
-        if (newCategories.includes(category)) {
-            newCategories = newCategories.filter(c => c !== category);
-        } else {
-            newCategories.push(category);
-        }
-
-        // If nothing selected, default back to "All"
-        if (newCategories.length === 0) {
-            setActiveCategory(["All"]);
-        } else {
-            setActiveCategory(newCategories);
-        }
+        setActiveCategory(["All"]);
     };
 
     return (

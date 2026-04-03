@@ -15,7 +15,7 @@ const projects = [
                 category: "3D"
             }
         ],
-        authors: ["/assets/loris.webp", "/assets/armin.webp"],
+        authors: ["/assets/loris.webp", "/assets/loris.webp"],
         gridThumbnail: "/assets/project_images/amca/thumb.webp",
         projectImages: ["/assets/project_images/amca/1.webp", "/assets/project_images/amca/2.webp", "/assets/project_images/amca/3.webp", "/assets/project_images/amca/4.webp"],
         bannerType: "image",
@@ -50,7 +50,7 @@ const projects = [
                 category: "3D"
             },
         ],
-        authors: ["/assets/loris.webp", "/assets/armin.webp"],
+        authors: ["/assets/loris.webp", "/assets/loris.webp"],
         gridThumbnail: "/assets/project_images/pneuma/thumb.webp",
         projectImages: ["/assets/project_images/pneuma/1.webp", "/assets/project_images/pneuma/2.webp", "/assets/project_images/pneuma/3.webp", "/assets/project_images/pneuma/4.webp", "/assets/project_images/pneuma/5.webp"],
         bannerType: "image",
@@ -93,7 +93,7 @@ const projects = [
                 category: "UI/UX"
             }
         ],
-        authors: ["/assets/loris.webp", "/assets/armin.webp"],
+        authors: ["/assets/loris.webp", "/assets/loris.webp"],
         gridThumbnail: "/assets/project_images/daydream_web/thumb.webp",
         projectImages: ["/assets/project_images/daydream_web/1.webp", "/assets/project_images/daydream_web/2.webp", "/assets/project_images/daydream_web/3.webp", "/assets/project_images/daydream_web/4.webp"],
         bannerType: "image",

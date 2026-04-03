@@ -40,7 +40,7 @@ export function FooterRive({ className }: { className?: string }) {
 
       const onRiveEvent = (event: any) => {
         if (event.data.name === "backClicked") {
-          safeOpen("https://www.instagram.com/jpegloris_/");
+          safeOpen("https://www.instagram.com/sadrita_neogi/");
         }
         if (event.data.name === "linkedinClicked") {
           safeOpen("https://www.linkedin.com/in/sadrita-neogi-2a7540376/");

@@ -39,7 +39,7 @@ export default function Footer() {
                 <div className="flex flex-col items-center justify-center gap-4 w-[350px] translate-y-[-10px]">
                     <div className="flex items-center justify-center gap-4">
                         <a
-                            href="https://www.instagram.com/jpegloris_/"
+                            href="https://www.instagram.com/sadrita_neogi/"
                             target="_blank"
                             rel="noreferrer"
                             className="w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center"

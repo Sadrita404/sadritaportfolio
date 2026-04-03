@@ -10,7 +10,7 @@ export default function Footer() {
         const updateTime = () => {
             const now = new Date();
             const timeString = new Intl.DateTimeFormat("en-GB", {
-                timeZone: "Europe/Budapest",
+                timeZone: "Asia/Kolkata",
                 hour: "2-digit",
                 minute: "2-digit",
                 hour12: false,
@@ -86,12 +86,12 @@ export default function Footer() {
                             </svg>
                         </button>
                     </div>
-                    <p className="text-sm leading-[100%] translate-y-[2.5px] font-intranet text-midgray">WAITING FOR YOUR MESSAGE</p>
+                    <p className="text-sm leading-[100%] translate-y-[-2px] font-intranet text-midgray">WAITING FOR YOUR MESSAGE</p>
                 </div>
             </div>
 
-            <div className="flex flex-col gap-[2px] text-center w-fit lg:text-left">
-                <p className="text-sm leading-[100%] translate-y-[2.5px] font-intranet text-midgray min-h-[14px]">{time} [HU]</p>
+            <div className="flex flex-col gap-[2px] text-center w-fit lg:text-left translate-y-[-16px]">
+                <p className="text-sm leading-[100%] translate-y-[0px] font-intranet text-midgray min-h-[14px]">{time} [ IND ]</p>
                 <div className="flex gap-[5px] items-center">
                     <div className="w-[10px] h-[10px] p-[4px] rounded-full bg-gradient-to-b from-[#0FFF2F] to-[#84FF6F] shadow-[0_0_10px_0.2px_#0FFF2F]">
                         <div className="w-full h-full rounded-full bg-gradient-to-b from-[#6CFF6C] to-[#23FF1F]" />

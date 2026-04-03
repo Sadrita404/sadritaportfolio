@@ -323,7 +323,7 @@ export default function ProjectModal({ slug, onClose, isOpen, onAnimationComplet
                 </button>
 
                 {/* socials */}
-                {isLayoutReady && <WorksSocials progressValue={progressValue} onBack={onClose} behance={project.behance} />}
+                {isLayoutReady && <WorksSocials progressValue={progressValue} onBack={onClose} />}
 
                 <div className="relative w-full h-full overflow-hidden sm:rounded-[18px] lg:rounded-[19px] flex justify-center items-center">
                     <div
